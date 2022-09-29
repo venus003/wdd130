@@ -1,0 +1,33 @@
+body {
+    background-color: #071820;
+}
+nav {
+    text-align: center;
+    border-color: #071820;
+    color: #071820;
+}
+nav a {
+    padding: 1em;
+    text-decoration: none;
+    background-color: #87c168;
+}
+nav a:link, nav a:visited {
+    color: #071820;
+  }
+nav a:hover {
+    color: #e0f8d0;
+    background-color: #336856;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    color: #e0f8d0;
+}
+p {
+    text-align: center;
+    color: #e0f8d0;
+}
+@media only screen and (max-width: 1060px) {
+    nav a {
+        display: block;
+    }    
+}

@@ -8,9 +8,8 @@ p {
     color: white;
     font-size: larger;
 }
-ul {
+li {
     color: white;
-    display: inline;
 }
 #screen {
     max-width: 800px;
