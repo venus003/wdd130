@@ -2,14 +2,45 @@ body {
     text-align: center;
     width: 75%;
     margin: 0 auto;
+    background-color: black;
 }
 p {
     color: white;
+    font-size: larger;
 }
-table {
-    margin-left: auto;
-    margin-right: auto;
-}
-td {
+ul {
     color: white;
+    display: inline;
 }
+#screen {
+    max-width: 800px;
+    margin: auto;
+    top: 1vw;
+    left: 10vw;
+    bottom: 1vw;
+    right: 10vw;
+    border-radius: 5vw;
+    position: fixed;
+    overflow-y: scroll;
+    background-color: #336856;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f100;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(136, 136, 136, 0);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(85, 85, 85, 0);
+  }
