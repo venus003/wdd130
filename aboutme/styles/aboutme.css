@@ -5,6 +5,8 @@ body {
     background-color: black;
 }
 p {
+    padding-left: 2em;
+    padding-right: 2em;
     color: white;
     font-size: larger;
 }
