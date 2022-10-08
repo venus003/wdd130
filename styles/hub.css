@@ -1,12 +1,18 @@
 body {
     background-color: #071820;
 }
+.form {
+    position: absolute;
+    margin-top: 5em;
+    margin-left: 25em;
+}
 nav {
     text-align: center;
     border-color: #071820;
     color: #071820;
 }
 nav a {
+    display: inline-block;
     padding: 1em;
     text-decoration: none;
     background-color: #87c168;
@@ -16,21 +22,36 @@ nav a:link, nav a:visited {
     color: #071820;
   }
 nav a:hover {
+    font-size: larger;
     color: white;
     background-color: #336856;
 }
-h1, h2, h3, h4, h5, h6 {
+h1 {
+    text-align: center;
+    font-size: 3em;
+    color: white;
+}
+h2, h3, h4, h5, h6 {
     text-align: center;
     color: white;
 }
 p {
+    padding: 1em;
     text-align: center;
     color: white;
 }
-@media only screen and (max-width: 1060px) {
+::selection {
+    color: #071820;
+    background: #87c168;
+  }
+@media only screen and (max-width: 1150px) {
     nav a {
         margin-top: 1em;
-        display: inline-block;
-        width: 50vw;
-    }    
+        width: 40%;
+    }
+    .form {
+        width: 100vw;
+        margin-top: 5em;
+        margin-left: -1em;
+    }
 }

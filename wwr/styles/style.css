@@ -75,9 +75,12 @@ header {
     color: #00618b;
 }
 footer {
+    position: relative;
     padding: 25px 50px;
     margin-top: 200px;
     background-color: #00618b;
+    box-shadow: inset 0 0 50px #000507;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%)
 }
 footer a {
     color: #ff9830;
@@ -122,4 +125,12 @@ h4 {
 }
 .mountains {
     margin: 150px;
+}
+.waves {
+    top: -65px;
+    position: absolute;
+    width: 16%;
+    height: 30%;
+    background-color: white;
+    border-radius: 50%;
 }
