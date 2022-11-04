@@ -68,6 +68,10 @@ p {
   color: var(--paragraph-color);
   padding: 1em;
 }
+li {
+  font-family: var(--paragraph-font);
+  color: var(--paragraph-color);
+}
 .colors {
   width: 100%;
   min-width: 350px;
