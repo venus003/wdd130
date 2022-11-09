@@ -40,6 +40,9 @@ img {
   display: block;
   margin: 0 auto;
 }
+.size {
+  width: 50vw;
+}
 h1, h2, h3, h4, h5, h6 {
   letter-spacing: 4px;
   font-family: var(--heading-font);
