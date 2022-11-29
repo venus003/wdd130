@@ -172,7 +172,7 @@ a {
     color: black;
 }
   
-button:hover, a:hover {
+.contact {
     opacity: 0.7;
 }
 
