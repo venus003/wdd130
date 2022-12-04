@@ -185,6 +185,6 @@ a {
         width: 90vw;
     }
     #hero-msg-box {
-        grid-area: 1/1/4/4;
+        grid-area: 1/1/10/10;
     }
 }
