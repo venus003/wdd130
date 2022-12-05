@@ -29,11 +29,11 @@
 }
 #hero {
     display: grid;
-    grid-template-columns: 1fr 6fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 }
 #hero-box {
-    grid-area: 1/1/10/10;
+    grid-area: 1/1/10/11;
     z-index: -1;
 }
 #hero-img {
@@ -41,7 +41,7 @@
     width: 100%;
 }
 #hero-msg-box {
-    grid-area: 1/1/10/10;
+    grid-area: 1/1/10/11;
 }
 .home-title {
     background-color: var(--paragraph-background-color);
